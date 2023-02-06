@@ -1,0 +1,201 @@
+html{
+    font-family: "Roboto" sans-serif;
+    color: #38e37c;
+}
+body{
+    margin: 0;
+}
+#main{
+    background-image: url(../css/resources/travel-world-monument-concept_117023-846.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 17em;
+    position: fixed;
+    text-align: center;
+    z-index: 100;
+    top: 0;
+}
+#main h1{
+    font-family: "Mali", cursive;
+    font-weight: bolder;
+    color: rgb(11, 96, 15);
+    padding-bottom: 5em;
+    
+}
+#main ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    margin-top: auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 0;
+    border: 1px solid rgb(11, 96, 15);
+    vertical-align: bottom;
+    background-color: rgb(11, 96, 15);
+}
+#main .nav-list{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#adventures{
+    position: relative;
+    top: 13em;
+    background-image: url(./resources/paul-volkmer-qVotvbsuM_c-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 4em 0;
+    width:100%
+}
+#adventures h2,h3{
+    font-family: "Mali", cursive;
+    font-weight: bolder;
+    color: rgb(215, 166, 42);
+    text-align: center;
+    padding-top: 2em;
+}
+#adventures .material-symbols-outlined{
+    color: yellow;
+}
+#adventures .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    
+    
+}
+#adventures ul{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;   
+}
+.content li{
+    font-size: larger;
+    font-weight: 600;
+    list-style-type: none;
+    max-width: 100%;
+    height: auto;
+
+}
+.content img{
+    max-width:15em;
+    height: auto;
+    margin: 1em;
+}
+.content a :hover {
+    color: red;
+}
+
+.content a{
+    color: #38e37c;
+    font-size: larger;
+    font-weight: 500;
+    list-style-type: none;
+    text-decoration: none;
+}
+@media only screen and (max-width:800px){
+    #adventures ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+#adventures .content{
+    justify-content: center;
+    text-align: center;
+    }
+
+#aboutus{
+    position: relative;
+    top: 9em;
+    text-align: center;
+    background-image: url(./resources/kupono-kuwamura-LzgK6IMoSZM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+#aboutus .content-box{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0;
+}
+#aboutus h1{
+    font-family: "Mali", cursive;
+    font-weight: bolder;
+    padding-top: 2.5em;
+    color: black;
+    font-weight: bolder;
+}
+#aboutus p{
+    font-size: large;
+    font-weight: bold;
+}
+#aboutus img{
+    height: 20em;
+    width: auto;
+
+}
+#aboutus .pr img{
+    border-radius: 20em;
+    border: 2px solid red;
+}
+#aboutus .ceo img{
+    border-radius: 20em;
+}
+#aboutus .pr{
+    color: red;
+}
+@media only screen and (max-width:800px){
+    #aboutus .content-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+   
+}
+#contact{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    top: 9em;
+    border: 2px solid #2f675e;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    background-color: #2f675e;
+}
+#contact h4{
+    color: rgb(242, 238, 238);
+    border: 2px solid #2f675e;
+    background-color: #2f675e;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+#contact .header{
+    color: darkorange;
+    font-size: x-large;
+}
+@media only screen and (max-width:800px){
+    #contact{
+        display: block;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+    
+
